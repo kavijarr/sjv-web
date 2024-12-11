@@ -7,15 +7,37 @@
 }
 .hero-inside{
   color: rgb(0, 0, 0);
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.7);
   font-weight: 700;
   font-size: 40px;
   padding: 30px;
+  border-radius: 8px;
 }
 
 .home-features{
   background-color: #251410;
   color: white;
+}
+
+.features-title{
+  font-size: 32px;
+  color: #FFB200;
+  font-weight: 600;
+}
+
+.features-subtitle{
+  margin-top: -10px;
+  font-size: 14px;
+}
+
+.features-txt{
+  font-size: 12px;
+  margin-top: -15px;
+  font-weight: lighter;
+}
+
+.features-wrapper{
+  margin-bottom: 0px;
 }
 
 @media(min-width: 768px){
@@ -29,5 +51,8 @@
   .hero-inside{
     font-size: 20px;
     max-width: auto;
+  }
+  .features-wrapper{
+    margin-bottom: 10px;
   }
 }
